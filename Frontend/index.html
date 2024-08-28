@@ -35,7 +35,7 @@
                     <input type="number" id="mobileNumber" name="mobileNumber" placeholder="+91 xxxxxxxxxx" required>
                 </div>
         
-                <div class="input-box">
+<!--                 <div class="input-box">
                     <span class="details">College*</span>
                     <input type="text" id="college" name="college" placeholder="Enter your college name" required>
                 </div>
@@ -44,7 +44,35 @@
                     <span class="details">Branch*</span>
                     <input type="text" id="branch" name="branch" placeholder="Enter your branch name" required>
                 </div>
+         -->    
+                 <div class="input-box">
+                    <span class="details">College*</span>
+                    <select id="college" name="college" required>
+                        <option value="" disabled selected>Select your college</option>
+                        <option value="UIT">UIT RGPV</option>
+                        <option value="SoIT">SoIT RGPV</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
         
+                <div class="input-box">
+                    <span class="details">Branch*</span>
+                    <select id="branch" name="branch" required>
+                        <option value="" disabled selected>Select your branch</option>
+                        <option value="AU">Automobile Engineering</option>
+                        <option value="Civil">Civil Engineering</option>
+                        <option value="CSE">Computer Science and Engineering</option>
+                        <option value="EE">Electrical and Electronics Engineering</option>
+                        <option value="ECE">Electronics and Communication Engineering</option>
+                        <option value="IT">Information Technology</option>
+                        <option value="Mech">Mechanical Engineering</option>
+                        <option value="Petro">Petrochemical Technology</option>
+                        <option value="AIML">CSE(Artificial Intelligence and Machine Learning)</option>
+                        <option value="DS">CSE(Data Science)</option>
+                        <option value="CSBS">Computer Science and Business System</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
                 <div class="input-box">
                     <span class="details">Enrollment No.*</span>
                     <input type="text" id="enrollmentNo" name="enrollmentNo" placeholder="Enter your enrollment no." required>
